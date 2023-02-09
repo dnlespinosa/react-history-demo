@@ -1,0 +1,29 @@
+History of React 
+    The ACTUAL history of it, like The Rommell book you have in your room. History 
+
+Early 
+    React.createClass in 2013
+        const Message = React.createClass({
+            render() {
+                return <h1>Hello World!</h1>
+            }
+        })
+    
+ES2015
+    React envolved to class based components 
+        class Message extends React.component {
+            render () {
+                return <h1>Hello World</h1>
+            }
+        }
+
+    Every component extends React.component
+    Class components must have a render method describing what the component should render
+
+What ABout State
+    With class components, we dont use hooks, instead state is intiialized in the constructor
+    State is changed with the instance method setState
+
+Instance Method and This
+    Instead of writing out event handlers as inline arrow functions, we can also write them as instance methods 
+    
